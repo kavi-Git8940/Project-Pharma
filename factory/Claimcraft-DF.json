@@ -1,0 +1,9 @@
+{
+	"name": "Claimcraft-DF",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "cf2a51f5-15b6-4af0-a7c8-84bb670b9f55",
+		"tenantId": "40ee6c5b-b3ca-4eef-a11b-f2be74541802"
+	}
+}

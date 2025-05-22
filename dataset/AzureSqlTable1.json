@@ -1,0 +1,90 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_sqlconnect",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Claim_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Brand",
+				"type": "varchar"
+			},
+			{
+				"name": "Product_NDC",
+				"type": "varchar"
+			},
+			{
+				"name": "Claim_Date",
+				"type": "varchar"
+			},
+			{
+				"name": "Copay_Amount",
+				"type": "varchar"
+			},
+			{
+				"name": "Billed_Amount",
+				"type": "varchar"
+			},
+			{
+				"name": "Paid_Amount",
+				"type": "varchar"
+			},
+			{
+				"name": "Pharmacy_Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Rep_ID",
+				"type": "varchar"
+			},
+			{
+				"name": "Territory",
+				"type": "varchar"
+			},
+			{
+				"name": "Channel",
+				"type": "varchar"
+			},
+			{
+				"name": "Coverage_Status",
+				"type": "varchar"
+			},
+			{
+				"name": "Prior_Auth",
+				"type": "varchar"
+			},
+			{
+				"name": "Plan_Type",
+				"type": "varchar"
+			},
+			{
+				"name": "Patient_Zip",
+				"type": "varchar"
+			},
+			{
+				"name": "Duplicate_Claim",
+				"type": "varchar"
+			},
+			{
+				"name": "Submission_Source",
+				"type": "varchar"
+			},
+			{
+				"name": "Notes",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "patient_claims_detail"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
